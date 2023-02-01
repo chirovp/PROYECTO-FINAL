@@ -1,0 +1,54 @@
+:root {
+     --theme-color: grey;
+     --primary-color: rgb(71, 41, 41);
+     --secondary-color:rgb(216, 187, 21);
+     --text-color-inverse:white;
+     --text-color:black;
+     --navbar-shallow-color:white;
+     --menu-mobile-background-color:greenyellow;
+   }
+
+   html {
+     scroll-behavior: smooth;
+   }
+   section[id] {
+     scroll-margin-top: 70px ;
+   }
+
+body {
+     font-family: 'Roboto', sans-serif;
+     background:linear-gradient(#808080,#ffffff);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     color: var(--text-color);
+     padding-top: 70px;
+}
+
+a {
+     text-decoration: none;
+     color:var(--text-color);
+}
+
+.horizontal-padding{
+     padding-left: 25px;
+     padding-right: 25px;
+}
+.vertical_padding {
+     padding-top: 25px;
+     padding-bottom: 25px;
+}
+ 
+@media (min-width:950px) {
+     .horizontal-padding{
+          padding-left: 25px;
+          padding-right: 25px;
+     }
+     .vertical_padding {
+          padding-top: 25px;
+          padding-bottom: 25px;
+     }
+}
+
+
+
